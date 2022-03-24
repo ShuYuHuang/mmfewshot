@@ -11,7 +11,8 @@ OpenMMLab是香港中文大學多媒體實驗室(MMLab)與商湯科技合作建�
 
 ## Tutorials
 🔥Introduction and Meta-Inference[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1jzebGHDGS6xDKn18vNkEhieYtHtBsHb7?usp=sharing)
-🔥Meta-Training[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](d)
+
+🔥Meta-Training[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://drive.google.com/file/d/12zKAJYg_tGxovuGnmh_Df-GRJ7-AHeU4/view?usp=sharing)
 
 ## Official Documents
 

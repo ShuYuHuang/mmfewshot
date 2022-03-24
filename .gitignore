@@ -114,7 +114,7 @@ venv.bak/
 *.pkl
 *.pkl.json
 *.log.json
-work_dirs/
+work_dir*/
 mmfewshot/.mim
 
 # Pytorch
