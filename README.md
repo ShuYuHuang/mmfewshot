@@ -1,71 +1,28 @@
-<div align="center">
-  <img src="resources/mmfewshot-logo.png" width="500px"/>
-  <div>&nbsp;</div>
-  <div align="center">
-    <b><font size="5">OpenMMLab website</font></b>
-    <sup>
-      <a href="https://openmmlab.com">
-        <i><font size="4">HOT</font></i>
-      </a>
-    </sup>
-    &nbsp;&nbsp;&nbsp;&nbsp;
-    <b><font size="5">OpenMMLab platform</font></b>
-    <sup>
-      <a href="https://platform.openmmlab.com">
-        <i><font size="4">TRY IT OUT</font></i>
-      </a>
-    </sup>
-  </div>
-  <div>&nbsp;</div>
-</div>
+# 物件偵測專班 - MMFewShot 手把手教學
 
-## Introduction
+[<img src=https://i.imgur.com/PXp4VHu.png  width="150" height="50">](https://mmfewshot.readthedocs.io/)
 
-English | [简体中文](README_zh-CN.md)
+OpenMMLab是香港中文大學多媒體實驗室(MMLab)與商湯科技合作建立的AI開源算法平台。在2021年OpenMMLab為發展Few-Shot Classification 與Few-Shot Object Detection這兩個題目開啟了MMFewShot這個新專案。詳見[官網](https://mmfewshot.readthedocs.io/en/latest/?badge=latest)。
 
-[![Documentation](https://readthedocs.org/projects/mmfewshot/badge/?version=latest)](https://mmfewshot.readthedocs.io/en/latest/?badge=latest)
-[![actions](https://github.com/open-mmlab/mmfewshot/workflows/build/badge.svg)](https://github.com/open-mmlab/mmfewshot/actions)
-[![codecov](https://codecov.io/gh/open-mmlab/mmfewshot/branch/main/graph/badge.svg)](https://codecov.io/gh/open-mmlab/mmfewshot)
-[![PyPI](https://badge.fury.io/py/mmfewshot.svg)](https://pypi.org/project/mmfewshot/)
-[![LICENSE](https://img.shields.io/github/license/open-mmlab/mmfewshot.svg)](https://github.com/open-mmlab/mmfewshot/blob/master/LICENSE)
-[![Average time to resolve an issue](https://isitmaintained.com/badge/resolution/open-mmlab/mmfewshot.svg)](https://github.com/open-mmlab/mmfewshot/issues)
-[![Percentage of issues still open](https://isitmaintained.com/badge/open/open-mmlab/mmfewshot.svg)](https://github.com/open-mmlab/mmfewshot/issues)
+**Contents of MMFewShot**
+* Few-shot classification/object detection algorithms
+* Inheritable modules and configure file system
+* Pre-trained model weights
 
+## Tutorials
+🔥Introduction and Meta-Inference[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1jzebGHDGS6xDKn18vNkEhieYtHtBsHb7?usp=sharing)
+🔥Meta-Training[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](d)
 
-mmfewshot is an open source few shot learning toolbox based on PyTorch. It is a part of the [OpenMMLab](https://open-mmlab.github.io/) project.
+## Official Documents
 
-The master branch works with **PyTorch 1.5+**.
-The compatibility to earlier versions of PyTorch is not fully tested.
-
-Documentation: https://mmfewshot.readthedocs.io/en/latest/.
-
-<div align="left">
-  <img src="resources/demo.png"/>
-</div>
-
-### Major features
-- **Support multiple tasks in Few Shot Learning**
-
-  MMFewShot provides unified implementation and evaluation of few shot classification and detection.
-
-- **Modular Design**
-
-  We decompose the few shot learning framework into different components,
-  which makes it much easy and flexible to build a new model by combining different modules.
-
-- **Strong baseline and State of the art**
-
-  The toolbox provides strong baselines and state-of-the-art methods in few shot classification and detection.
-
-
-## License
-
-This project is released under the [Apache 2.0 license](LICENSE).
-
+Official Introduction to mmfewshot
+* [Installation](docs/install.md)
+* [Concepts of FSL](docs/en/intro.md).
+* [Basic usage of mmfewshot](docs/en/get_started.md)
 
 ## Model Zoo
 
-Supported algorithms:
+Algorithms that MMFewShot implemented, with downloadable pre-trained weight.
 
 <details open>
 <summary>Classification</summary>
@@ -93,39 +50,7 @@ Supported algorithms:
 
 </details>
 
-
-## Changelog
-
-
-## Installation & Dataset Preparation
-
-Please refer to [install.md](docs/install.md) for installation of mmfewshot and [data preparation](tools/data/README.md) for dataset preparation.
-
-## Getting Started
-
-If you are new of few shot learning, you can start with [learn the basics](docs/en/intro.md).
-If you are familiar with it, check out [getting_started.md](docs/en/get_started.md) for the basic usage of mmfewshot.
-
-
-Refer to the below tutorials to dive deeper:
-
-- Few Shot Classification
-    - [Overview](docs/classification/overview.md)
-    - [Config](docs/classification/customize_config.md)
-    - [Customize Dataset](docs/classification/customize_dataset.md)
-    - [Customize Model](docs/classification/customize_models.md)
-    - [Customize Runtime](docs/classification/customize_runtime.md)
-
-- Few Shot Detection
-    - [Overview](docs/detection/overview.md)
-    - [Config](docs/detection/customize_config.md)
-    - [Customize Dataset](docs/detection/customize_dataset.md)
-    - [Customize Model](docs/detection/customize_models.md)
-    - [Customize Runtime](docs/detection/customize_runtime.md)
-
 ## Citation
-
-If you find this project useful in your research, please consider cite:
 
 ```bibtex
 @misc{mmfewshot2021,
@@ -135,33 +60,19 @@ If you find this project useful in your research, please consider cite:
     year={2021}
 }
 ```
-
-
-## Contributing
-
-We appreciate all contributions to improve mmfewshot. Please refer to [CONTRIBUTING.md](https://github.com/open-mmlab/mmfewshot/blob/main/.github/CONTRIBUTING.md) in MMFewShot for the contributing guideline.
-
-## Acknowledgement
-
-mmfewshot is an open source project that is contributed by researchers and engineers from various colleges and companies. We appreciate all the contributors who implement their methods or add new features, as well as users who give valuable feedbacks. We wish that the toolbox and benchmark could serve the growing research community by providing a flexible toolkit to reimplement existing methods and develop their own new methods.
-
-## Projects in OpenMMLab
-
-- [MIM](https://github.com/open-mmlab/mim): MIM installs OpenMMLab packages.
-- [MMClassification](https://github.com/open-mmlab/mmclassification): OpenMMLab image classification toolbox and benchmark.
-- [MMDetection](https://github.com/open-mmlab/mmdetection): OpenMMLab detection toolbox and benchmark.
-- [MMDetection3D](https://github.com/open-mmlab/mmdetection3d): OpenMMLab's next-generation platform for general 3D object detection.
-- [MMRotate](https://github.com/open-mmlab/mmrotate): OpenMMLab rotated object detection toolbox and benchmark.
-- [MMSegmentation](https://github.com/open-mmlab/mmsegmentation): OpenMMLab semantic segmentation toolbox and benchmark.
-- [MMOCR](https://github.com/open-mmlab/mmocr): OpenMMLab text detection, recognition, and understanding toolbox.
-- [MMPose](https://github.com/open-mmlab/mmpose): OpenMMLab pose estimation toolbox and benchmark.
-- [MMHuman3D](https://github.com/open-mmlab/mmhuman3d): OpenMMLab 3D human parametric model toolbox and benchmark.
-- [MMSelfSup](https://github.com/open-mmlab/mmselfsup): OpenMMLab self-supervised learning toolbox and benchmark.
-- [MMRazor](https://github.com/open-mmlab/mmrazor): OpenMMLab model compression toolbox and benchmark.
-- [MMFewShot](https://github.com/open-mmlab/mmfewshot): OpenMMLab fewshot learning toolbox and benchmark.
-- [MMAction2](https://github.com/open-mmlab/mmaction2): OpenMMLab's next-generation action understanding toolbox and benchmark.
-- [MMTracking](https://github.com/open-mmlab/mmtracking): OpenMMLab video perception toolbox and benchmark.
-- [MMFlow](https://github.com/open-mmlab/mmflow): OpenMMLab optical flow toolbox and benchmark.
-- [MMEditing](https://github.com/open-mmlab/mmediting): OpenMMLab image and video editing toolbox.
-- [MMGeneration](https://github.com/open-mmlab/mmgeneration): OpenMMLab image and video generative models toolbox.
-- [MMDeploy](https://github.com/open-mmlab/mmdeploy): OpenMMLab model deployment framework.
+```bibtex
+@article{wang2020few,
+    title={Frustratingly Simple Few-Shot Object Detection},
+    author={Wang, Xin and Huang, Thomas E. and  Darrell, Trevor and Gonzalez, Joseph E and Yu, Fisher}
+    booktitle = {International Conference on Machine Learning (ICML)},
+    month = {July},
+    year = {2020}
+}
+```
+## Acknowledgements
+* https://github.com/open-mmlab/mmfewshot
+    * Official repository of mmfewshot
+* https://github.com/ucbdrive/few-shot-object-detection
+    * Method of data preparation
+* https://app.roboflow.com/
+    * Data source, method of data preparation
