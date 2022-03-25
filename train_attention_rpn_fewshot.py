@@ -24,7 +24,7 @@ data = dict(
         type='FewShotCocoODataset',
         ann_cfg=[dict(
             type='ann_file',
-            ann_file='annotations.old/valid_annotations.coco.json'
+            ann_file='annotations/valid_annotations.coco.json'
         )],
         data_root=data_root,
         img_prefix="images/",
@@ -33,7 +33,7 @@ data = dict(
         type='FewShotCocoODataset',
         ann_cfg=[dict(
             type='ann_file',
-            ann_file='annotations.old/valid_annotations.coco.json'
+            ann_file='annotations/valid_annotations.coco.json'
         )],
         data_root=data_root,
         img_prefix="images/",
