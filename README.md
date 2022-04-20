@@ -1,4 +1,4 @@
-# 物件偵測專班 - MMFewShot 手把手教學
+# Few-Shot O - MMFewShot 手把手教學
 
 [<img src=https://i.imgur.com/PXp4VHu.png  width="150" height="50">](https://mmfewshot.readthedocs.io/)
 
